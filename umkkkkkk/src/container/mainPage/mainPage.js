@@ -6,8 +6,8 @@ class MainPage extends Component {
       <>
         <h1>Hello</h1>
         <h3>Hello mdfckr</h3>
-        <h3>Joker</h3>
-        <h3>Bubna</h3>
+        <h3>Joker+</h3>
+        <h3>Bubna+</h3>
       </>
     );
   }
