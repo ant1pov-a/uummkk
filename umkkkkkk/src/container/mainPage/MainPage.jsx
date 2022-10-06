@@ -1,15 +1,18 @@
 import React, { Component } from "react";
+import BestOffer from "./BestOffer/BestOffer";
+import Cities from "./Cities/Cities";
+
+import classes from "./MainPage.module.css";
 
 class MainPage extends Component {
   render() {
     return (
-      <>
-        <h1>Hello++</h1>
-        <h2>Hello this is H2++</h2>
-        <p>Create About us++</p>
-        <h3>Bubna++</h3>
-        <p>sosi svoyu bubnu</p>
-      </>
+      <div className={classes.MainPage}>
+        <h1>Main screen here</h1>
+
+        <BestOffer />
+        <Cities />
+      </div>
     );
   }
 }
