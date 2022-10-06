@@ -6,6 +6,7 @@ class MainPage extends Component {
       <>
         <h1>Hello</h1>
         <h2>Hello this is H2</h2>
+        <p>Create About us</p>
       </>
     );
   }
