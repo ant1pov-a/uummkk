@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import mainPage from "./container/mainPage/mainPage";
+import MainPage from "./container/mainPage/MainPage";
 
 class App extends Component {
   render() {
-    return <mainPage />;
+    return <MainPage />;
   }
 }
 
