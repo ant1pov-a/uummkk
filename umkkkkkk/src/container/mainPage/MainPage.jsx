@@ -8,6 +8,7 @@ class MainPage extends Component {
         <h2>Hello this is H2++</h2>
         <p>Create About us++</p>
         <h3>Bubna++</h3>
+        <p>sosi svoyu bubnu</p>
       </>
     );
   }
