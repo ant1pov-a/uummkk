@@ -3,7 +3,6 @@ import classes from "./Cities.module.css";
 import city1 from "../../../img/city1.png";
 import city2 from "../../../img/city2.png";
 import city3 from "../../../img/city3.png";
-import footerPaper from "../../../img/footerPaper.png";
 
 class Cities extends Component {
   state = {};
