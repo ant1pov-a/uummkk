@@ -9,7 +9,7 @@ class Cities extends Component {
   state = {};
   render() {
     return (
-      <>
+      <div className={classes.wrapper}>
         <h1 className={classes.Cities__title}>
           Наше пиво вы можете встретить на полках Больших городов УКРАИНЫ
         </h1>
@@ -34,7 +34,7 @@ class Cities extends Component {
           </div>
         </div>
         {/* here btn component  */}
-      </>
+      </div>
     );
   }
 }

@@ -1,4 +1,6 @@
 .MainNavigation {
+  background-color: #f3f0e6;
+  max-width: 1200px;
   text-align: center;
   width: 100%;
   border-bottom: 1px solid black;

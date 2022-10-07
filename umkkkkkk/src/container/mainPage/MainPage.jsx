@@ -4,17 +4,18 @@ import Cities from "./Cities/Cities";
 
 import classes from "./MainPage.module.css";
 import MainNavigation from "../../component/Navigation/MainNavigation/MainNavigation";
+import Layout from "../../hoc/Layout";
 
 class MainPage extends Component {
   render() {
     return (
-      <div className={classes.MainPage}>
-        <MainNavigation />
-        <h1>Main screen here</h1>
-
-        <BestOffer />
-        <Cities />
-      </div>
+      <Layout>
+        <div className={classes.container}>
+          <MainNavigation />
+          <BestOffer />
+          <Cities />
+        </div>
+      </Layout>
     );
   }
 }

@@ -50,7 +50,7 @@ class BestOffer extends Component {
   };
   render() {
     return (
-      <>
+      <div className={classes.wrapper}>
         <h1 className={classes.offer__title}>Best Offer</h1>
         <div className={classes.offers}>
           {this.state.offerItems.map((item) => {
@@ -69,7 +69,7 @@ class BestOffer extends Component {
             );
           })}
         </div>
-      </>
+      </div>
     );
   }
 }
