@@ -1,0 +1,55 @@
+.wrapper {
+  background-color: #f3f0e6;
+}
+.Cities__title {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  font-family: "Rubik Mono One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 45px;
+  /* or 94% */
+
+  text-align: center;
+  letter-spacing: -0.08em;
+
+  color: #000000;
+}
+.Cities {
+  display: flex;
+  justify-content: space-between;
+}
+.City__card {
+  position: relative;
+}
+.City__card:hover .City__name {
+  transition: 0.2s ease-in-out;
+  color: red;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.City__name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 100%;
+
+  font-family: "Rubik Mono One";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 150px;
+  text-align: center;
+  /* or 375% */
+
+  letter-spacing: -0.05em;
+
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  text-shadow: 0px 8px 8px #4d4d4d;
+  filter: blur(1.5px);
+}

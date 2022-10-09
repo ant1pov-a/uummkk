@@ -1,0 +1,20 @@
+.Button {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  background-color: #c1102a;
+  border: 1px solid #c1102a;
+  color: #fff;
+  font-family: "Rubik One";
+  font-weight: 700;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  min-width: 100px;
+  max-height: 80px;
+}
+.Button:hover {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  cursor: pointer;
+}
