@@ -1,0 +1,16 @@
+.CompactNavigation {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.CompactNavigation .link {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Rubik Mono One";
+  font-size: 40px;
+  line-height: 35px;
+}
+.CompactNavigation .link:hover {
+  color: #c1102a;
+}

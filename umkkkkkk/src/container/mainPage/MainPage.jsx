@@ -10,14 +10,16 @@ import Footer from "../../component/Footer/Footer";
 class MainPage extends Component {
   render() {
     return (
-      <Layout>
-        <div className={classes.container}>
-          <MainNavigation />
-          <BestOffer />
-          <Cities />
+      <>
+        <Layout>
+          <div className={classes.container}>
+            <MainNavigation />
+            <BestOffer />
+            <Cities />
+          </div>
           <Footer />
-        </div>
-      </Layout>
+        </Layout>
+      </>
     );
   }
 }

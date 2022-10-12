@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import classes from "./Footer.module.css";
+import CompactNavigation from "../Navigation/CompactNavigation/CompactNavigation";
+import FormRegistration from "../../Form/FormRegistration/FormRegistration";
 class Footer extends Component {
   constructor(props) {
     super(props);
@@ -7,9 +9,15 @@ class Footer extends Component {
   state = {};
   render() {
     return (
-      <section className={classes.Footer}>
-        <h1>Hello Footer</h1>
-      </section>
+      <footer className={classes.Footer}>
+        <div className={classes.wrapper}>
+          <div className={classes.menu}>
+            <CompactNavigation />
+            {/* SocialLinks */}
+          </div>
+          <FormRegistration />
+        </div>
+      </footer>
     );
   }
 }

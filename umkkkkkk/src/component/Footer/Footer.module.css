@@ -1,4 +1,25 @@
 .Footer {
-  background-image: url("../../img/footer.png");
+  background-size: cover;
   width: 100%;
+  height: 450px;
+  background-color: #000;
+  position: relative;
+  color: #fff;
+}
+
+Footer::before {
+  content: "";
+  background-image: url(../../img/footer-t.png);
+  position: absolute;
+  height: 470px;
+  bottom: 100%;
+  /* z-index: -1; */
+  left: 0;
+  right: 0;
+}
+.Footer .wrapper {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-around;
 }

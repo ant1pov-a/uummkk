@@ -1,0 +1,19 @@
+.FormRegistration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.FormRegistration .text {
+  font-family: "Rosarivo";
+  font-style: italic;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+.FormRegistration .input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+.FormRegistration .send {
+  background-color: #fff;
+}
