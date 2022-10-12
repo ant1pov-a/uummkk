@@ -3,6 +3,7 @@ import classes from "./Cities.module.css";
 import city1 from "../../img/city1.png";
 import city2 from "../../img/city2.png";
 import city3 from "../../img/city3.png";
+import Button from "../UI/Button/Button";
 
 class Cities extends Component {
   state = {};
@@ -32,7 +33,7 @@ class Cities extends Component {
             </a>
           </div>
         </div>
-        {/* here btn component  */}
+        <Button text="Our partners" />
       </div>
     );
   }
