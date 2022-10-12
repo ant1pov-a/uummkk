@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import classes from "./BestOffer.module.css";
-import beerImg1 from "../../../img/beerImg1.png";
-import beerImg2 from "../../../img/beerImg2.png";
-import beerImg3 from "../../../img/beerImg3.png";
-import beerImg4 from "../../../img/beerImg4.png";
-import beerImg5 from "../../../img/beerImg5.png";
-import beerImg6 from "../../../img/beerImg6.png";
+import beerImg1 from "../../../img/beer1.png";
+import beerImg2 from "../../../img/beer2.png";
+import beerImg3 from "../../../img/beer3.png";
+import beerImg4 from "../../../img/beer4.png";
+import beerImg5 from "../../../img/beer5.png";
+import beerImg6 from "../../../img/beer6.png";
 
 class BestOffer extends Component {
   state = {
@@ -56,7 +56,7 @@ class BestOffer extends Component {
           {this.state.offerItems.map((item) => {
             return (
               <div className={classes.offer__item}>
-                <img src={item.img} alt="" />
+                <img className={classes.offerItem__img} src={item.img} alt="" />
                 <h4 className={classes.offerItem__title}>{item.title}</h4>
                 <p className={classes.offerItem__subtitle}>{item.subtitle}</p>
                 <div>
