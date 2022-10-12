@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import classes from "./BestOffer.module.css";
-import beerImg1 from "../../../img/beer1.png";
-import beerImg2 from "../../../img/beer2.png";
-import beerImg3 from "../../../img/beer3.png";
-import beerImg4 from "../../../img/beer4.png";
-import beerImg5 from "../../../img/beer5.png";
-import beerImg6 from "../../../img/beer6.png";
+import beerImg1 from "../../img/beer1.png";
+import beerImg2 from "../../img/beer2.png";
+import beerImg3 from "../../img/beer3.png";
+import beerImg4 from "../../img/beer4.png";
+import beerImg5 from "../../img/beer5.png";
+import beerImg6 from "../../img/beer6.png";
 
 class BestOffer extends Component {
   state = {
@@ -57,13 +57,17 @@ class BestOffer extends Component {
             return (
               <div className={classes.offer__item}>
                 <img className={classes.offerItem__img} src={item.img} alt="" />
-                <h4 className={classes.offerItem__title}>{item.title}</h4>
-                <p className={classes.offerItem__subtitle}>{item.subtitle}</p>
                 <div>
-                  <button className={classes.offerItem__buy}>buy it now</button>
-                  <a className={classes.offerItem_details} href="#">
-                    details
-                  </a>
+                  <h4 className={classes.offerItem__title}>{item.title}</h4>
+                  <p className={classes.offerItem__subtitle}>{item.subtitle}</p>
+                  <div className={classes.offerItem__buttons}>
+                    <button className={classes.offerItem__buy}>
+                      buy it now
+                    </button>
+                    <a className={classes.offerItem_details} href="#">
+                      Details
+                    </a>
+                  </div>
                 </div>
               </div>
             );

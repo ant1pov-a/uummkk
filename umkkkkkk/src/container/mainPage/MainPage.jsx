@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import BestOffer from "./BestOffer/BestOffer";
-import Cities from "./Cities/Cities";
+import BestOffer from "../../component/BestOffer/BestOffer";
+import Cities from "../../component/Cities/Cities";
 
 import classes from "./MainPage.module.css";
 import MainNavigation from "../../component/Navigation/MainNavigation/MainNavigation";

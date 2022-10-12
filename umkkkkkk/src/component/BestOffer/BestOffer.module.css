@@ -2,6 +2,7 @@
   background-color: #f3f0e6;
   position: relative;
   z-index: 1;
+  padding-top: 100px;
 }
 .offer__title {
   z-index: 1000;
@@ -30,22 +31,45 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: baseline;
   margin-bottom: 40px;
 }
 .offer__item {
   width: 30%;
-  height: auto;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  cursor: pointer;
+}
+.offer__item:hover > .offerItem__img {
+  transition: 0.3s;
+  filter: drop-shadow(40px 0px 50px rgba(40, 7, 7, 0.71));
+  transform: rotate(0deg);
+  scale: 1.1;
+}
+.offer__item:hover .offerItem__buy {
+  transition: 0.3s;
+  background-color: #000000;
+  color: #ffffff;
 }
 .offerItem__img {
-  width: 25%;
-  max-height: 500px;
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+
+  filter: drop-shadow(30px 0px 40px rgba(40, 7, 7, 0.41));
+  transform: rotate(25deg);
+  transition: 0.3s;
 }
 
 .offerItem__title {
   font-style: normal;
   font-weight: 800;
   font-size: 32px;
-  line-height: 38px;
+  line-height: 68px;
   letter-spacing: -0.05em;
 
   color: #000000;
@@ -57,24 +81,30 @@
   font-family: "Rosarivo";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 28px;
 
   color: #000000;
 
   margin-bottom: 10px;
 }
+.offerItem__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .offerItem__buy {
   width: 158px;
   height: 45px;
-  background-color: #000000;
+  background-color: #c1102a;
   color: #ffffff;
   font-family: "Rubik One";
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
+  cursor: pointer;
 
   margin-right: 10px;
 }
@@ -84,6 +114,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
+  text-decoration: none;
 
   color: #000000;
 }

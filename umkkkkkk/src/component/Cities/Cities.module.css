@@ -29,6 +29,7 @@
   transition: 0.2s ease-in-out;
   color: red;
   background-color: rgba(0, 0, 0, 0.8);
+  text-shadow: none;
 }
 .City__name {
   position: absolute;
