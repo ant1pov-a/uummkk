@@ -13,4 +13,5 @@
 }
 .CompactNavigation .link:hover {
   color: #c1102a;
+  transition: 0.3s;
 }
