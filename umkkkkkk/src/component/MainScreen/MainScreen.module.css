@@ -1,12 +1,11 @@
 .MainScreen {
-  height: 100vh;
   display: flex;
   align-items: center;
   max-width: 1200px;
 }
 
 .mainImg {
-  width: 100%;
+  width: 50%;
   height: auto;
   max-height: 100vh;
 }
