@@ -4,9 +4,10 @@ import burger from "../../../img/burger.png";
 
 const MenuButton = (props) => {
   return (
-    <a href="#" className={classes.MenuButton}>
-      <img src={burger} alt="" />
-    </a>
+    <div className={classes.MenuButton}></div>
+    // <a href="#" className={classes.MenuButton}>
+    //   <img src={burger} alt="" />
+    // </a>
   );
 };
 
