@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* margin-bottom: 40px; */
 }
 .FormRegistration .text {
   font-family: "Rosarivo";
@@ -10,10 +11,30 @@
   margin-bottom: 5px;
 }
 .FormRegistration .input {
-  width: 300px;
-  height: 40px;
+  width: 350px;
+  height: 50px;
   margin-bottom: 5px;
 }
 .FormRegistration .send {
   background-color: #fff;
+}
+.FormRegistration .button {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  background-color: #c1102a;
+  border: 1px solid #c1102a;
+  color: #fff;
+  font-family: "Rubik One";
+  font-weight: 700;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  min-width: 100px;
+  max-height: 80px;
+}
+.FormRegistration .button:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #000;
+  cursor: pointer;
 }

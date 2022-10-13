@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import classes from "./FormRegistration.module.css";
-import Button from "../../component/UI/Button/Button";
 class FormRegistration extends Component {
   render() {
     return (
@@ -24,7 +23,9 @@ class FormRegistration extends Component {
           className={classes.input}
           action=""
         ></input>
-        <Button className={classes.send} text="Sign Up" />
+        <button type="submit" className={classes.button}>
+          Sign Up
+        </button>
       </form>
     );
   }
