@@ -15,7 +15,7 @@ class AboutUs extends Component {
             California in 1993 and has been crafting hop-forward beers ever
             since. Welcoming the open-minded with open taps and simple truths:
             Beer Speaks (for itself), Life Is Uncertain (dont sip), and Its Good
-            To Have Friends.
+            To Have Friends.Such fuck
           </p>
         </div>
       </Layout>
