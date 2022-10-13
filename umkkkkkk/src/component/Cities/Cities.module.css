@@ -55,3 +55,9 @@
   text-shadow: 0px 8px 8px #4d4d4d;
   filter: blur(1.5px);
 }
+.btn__wrapper {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 30px;
+}

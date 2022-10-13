@@ -33,7 +33,9 @@ class Cities extends Component {
             </a>
           </div>
         </div>
-        <Button text="Our partners" />
+        <div className={classes.btn__wrapper}>
+          <Button text="Our partners" />
+        </div>
       </div>
     );
   }

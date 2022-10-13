@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import classes from "./Footer.module.css";
 import CompactNavigation from "../Navigation/CompactNavigation/CompactNavigation";
-import FormRegistration from "../../Form/FormRegistration/FormRegistration";
+import FormRegistration from "../../form/FormRegistration/FormRegistration";
 class Footer extends Component {
   constructor(props) {
     super(props);

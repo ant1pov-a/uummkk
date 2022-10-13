@@ -6,6 +6,7 @@ import classes from "./MainPage.module.css";
 import MainNavigation from "../../component/Navigation/MainNavigation/MainNavigation";
 import Layout from "../../hoc/Layout";
 import Footer from "../../component/Footer/Footer";
+import MainScreen from "../../component/MainScreen/MainScreen";
 
 class MainPage extends Component {
   render() {
@@ -14,6 +15,7 @@ class MainPage extends Component {
         <Layout>
           <div className={classes.container}>
             <MainNavigation />
+            <MainScreen />
             <BestOffer />
             <Cities />
           </div>
